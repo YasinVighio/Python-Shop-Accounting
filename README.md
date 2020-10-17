@@ -1,12 +1,21 @@
 # Python-Shop-Accounting
+
 Python version = Python 3.8
+
 PyQt5 version = 5
+
 Sqlite3
+
 DEPENDENCIES TO BE INSTALLED
+
 pip install PyQt5
+
 if you want to build as exe for windows or for linux you need to 
+
 pip uninstall PyQt5-sip
+
 and then
+
 pip install PyQt5-sip
 
 To run create a virtual environment install PyQt5 in it and add all these files into the virtual env.
@@ -19,10 +28,12 @@ Also the software checks that dependencies folder exists or not. If it does not 
 Dependencies folder contains config files, icons and databases.
 When the software starts there are three tabs [ITEMS, EXPENSES, REPORTS]
 There are 4 databases in total:
+
   1. Item DB
   2. Sales DB
   3. Expense DB
   4. Report DB
+  
 In item db you can add/delete items. 
 you can also add items by using csv file
 Sales db is auto created when transaction occurs.
