@@ -1,10 +1,15 @@
 # Python-Shop-Accounting
+Python version = Python 3.8
+PyQt5 version = 5
+Sqlite3
 DEPENDENCIES TO BE INSTALLED
 pip install PyQt5
 if you want to build as exe for windows or for linux you need to 
 pip uninstall PyQt5-sip
 and then
 pip install PyQt5-sip
+
+To run create a virtual environment install PyQt5 in it and add all these files into the virtual env.
 
 This software is simple accounting for small businesses and shops.
 The app name can be changed by editing the config.ini file in /dependencies/configfiles/
